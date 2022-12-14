@@ -5,12 +5,12 @@ function NavBar() {
                 <a href="#">
                     <img src="./imagens/stranger_things.png" alt="Logo de Stranger Things"></img>
                 </a>
-                <div class="mobile-menu">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div>
+                <div className="mobile-menu">
+                    <div className="line1"></div>
+                    <div className="line2"></div>
+                    <div className="line3"></div>
                 </div>
-                <ul class="nav-list">
+                <ul className="nav-list">
                     <li>
                         <a href="#sobre">Sobre</a>
                     </li>
