@@ -1,0 +1,135 @@
+#carrossel {
+    padding-top: 20px;
+}
+
+.slider {
+    margin: 0 auto;
+    width: 630px;
+    height: 380px;
+    overflow: hidden;
+    border: 5px solid red;
+}
+
+.slides {
+    width: 630px;
+    height: 380px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+    background-color: transparent;
+}
+
+.slide {
+    width: 100%;
+    position: relative;
+    transition: 2s;
+}
+
+.slide img {
+    width: 630px;
+    height: 380px;
+}
+
+.manual-navigation {
+    position: absolute;
+    width: 630px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.manual-btn {
+    border: 2.5px solid white;
+    padding: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    background-color: transparent;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background-color: red;
+}
+
+#radio1:checked~.first {
+    margin-left: 0%;
+}
+
+#radio2:checked~.first {
+    margin-left: -100%;
+}
+
+#radio3:checked~.first {
+    margin-left: -200%;
+}
+
+#radio4:checked~.first {
+    margin-left: -300%;
+}
+
+.navigation-auto div {
+    border: 2.5px solid white;
+    padding: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    background-color: transparent;
+    
+}
+div.navigation-auto {
+    position: absolute;
+    width: 630px;
+    margin-top: 340.1px;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.navigaton-auto {
+    position: absolute;
+    width: 630px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio1:checked~.navigation-auto .auto-btn1 {
+    background-color: white;
+}
+
+#radio2:checked~.navigation-auto .auto-btn2 {
+    background-color: white;
+}
+
+#radio3:checked~.navigation-auto .auto-btn3 {
+    background-color: white;
+}
+
+#radio4:checked~.navigation-auto .auto-btn4 {
+    background-color: white;
+}
+
+section h1, #h1-noticias {
+    color: red;
+    font-weight: 600;
+    text-align: center;
+}
+
+#h1-noticias, #h1-personagens, #h1-temporadas {
+    padding-top: 50px;
+}
+
+#h1-noticias {
+    padding-bottom: 0;
+}

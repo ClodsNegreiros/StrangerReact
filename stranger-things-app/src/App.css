@@ -1,0 +1,17 @@
+* {
+    background-color: black;
+}
+
+body {
+    font-family: 'Changa', sans-serif !important;
+    overflow-x: hidden;
+}
+
+.main-sections {
+    padding: 50px;
+    padding-bottom: 0;
+}
+
+#h1 {
+    padding-top: 50px;
+}

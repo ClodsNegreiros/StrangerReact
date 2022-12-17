@@ -1,9 +1,13 @@
+import stranger_things from '../../Assets/Principais/stranger_things.png'
+
+import './NavBar.css'
+
 function NavBar() {
     return (
         <div className ="navbar">
             <nav>
                 <a href="#">
-                    <img src="./imagens/stranger_things.png" alt="Logo de Stranger Things"></img>
+                    <img src={stranger_things} alt="Logo de Stranger Things"></img>
                 </a>
                 <div className="mobile-menu">
                     <div className="line1"></div>

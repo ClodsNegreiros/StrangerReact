@@ -1,8 +1,10 @@
+import './Temporadas.css'
+
 function Temporadas() {
     return(
-        <div className="main-sections pt-0">
-            <h1 id="h1-temporadas" className="mb-5">Temporadas</h1>
-            <section className="cards-temporadas d-flex text-center flex-row flex-wrap justify-content-around align-content-around">
+        <div className="main-sections temp">
+            <h1 id="h1-temporadas" className="temporadas">Temporadas</h1>
+            <section>
                 
             </section>
         </div>

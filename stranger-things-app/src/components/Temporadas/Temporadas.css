@@ -1,0 +1,15 @@
+.temp{
+    padding-top: 0;
+}
+
+.temporadas {
+    margin-bottom: 5px;
+}
+
+section {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
