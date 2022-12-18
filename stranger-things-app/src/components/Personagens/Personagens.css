@@ -73,3 +73,54 @@
     width: 85px;
     height: 40px;
 }
+
+#img-personagens {
+    width: 300px;
+}
+
+.hidden {
+    display: none;
+}
+
+.div-personagens {
+    margin-bottom: 50px;
+    padding: 10px;
+    transition: transform .5s;
+    will-change: scale;
+}
+
+.div-personagens:hover, .div-personagens:hover .lixeira {
+    color: black;
+    background-color: red;
+    transform: scale(1.08);
+}
+
+.lixeira {
+    color: transparent;
+    background-color: transparent;
+    padding: 10px;
+    left: 275px;
+    margin-left: 0.55rem;
+}
+
+.div-personagens:hover h3 {
+    color: black !important;
+    font-weight: bold;
+}
+
+div h3 {
+    color: red;
+    margin-top: 10px;
+}
+
+div h4 {
+    color: white
+}
+
+.div-personagens:hover h4 {
+    color: black;
+}
+
+.div-personagens:hover .bg-red {
+    background-color: red;
+}

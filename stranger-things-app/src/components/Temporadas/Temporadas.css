@@ -13,3 +13,48 @@ section {
     justify-content: space-around;
     align-content: space-around;
 }
+
+#temporada1 {
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.7) 50%, transparent),
+        url(../../Assets/Posters/Temporada-1.jpg);
+}
+
+#temporada2 {
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.7) 50%, transparent),
+        url(../../Assets/Posters/Temporada-2.jpg);
+}
+
+#temporada3 {
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.7) 50%, transparent),
+        url(../../Assets/Posters/Temporada-3.jpg);
+}
+
+#temporada4 {
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.7) 50%, transparent),
+        url(../../Assets/Posters/Temporada-4.jpg);
+}
+
+.div-temporadas {
+    margin: 30px;
+    width: 250px;
+    height: 370px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+    transition: transform .5s;
+    will-change: scale;
+}
+
+.div-temporadas:hover {
+    transform: scale(1.2);
+}
+
+.h1-temporadas {
+    font-size: 70px;
+    padding: 1px 92px 1px 92px;
+}
+
+.h2-temporadas {
+    color: white;
+    padding: 1px 47px 1px 47px;
+}
