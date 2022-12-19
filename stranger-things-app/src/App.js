@@ -1,6 +1,7 @@
 import './App.css';
-import NavBar from './Layouts/NavBar/NavBar'
-import Footer from './Layouts/Footer/Footer'
+import NavBar from './Layouts/NavBar/NavBar';
+import Footer from './Layouts/Footer/Footer';
+
 
 function App() {
   return (
