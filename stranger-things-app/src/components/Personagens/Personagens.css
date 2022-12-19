@@ -1,4 +1,4 @@
-.submit{
+ .submit{
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -9,13 +9,15 @@
 .central {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: nowrap;
 }
 
 #pesquisa {
     width: 70%;
+    margin: 0 2rem;
 }
+
 
 #exampleDataList.form-control {
     width: 98.8% !important;
@@ -72,10 +74,11 @@
     border-radius: 6px;
     width: 85px;
     height: 40px;
-}
+} 
 
-#img-personagens {
+.img-personagens {
     width: 300px;
+    vertical-align: middle;
 }
 
 .hidden {
@@ -83,11 +86,30 @@
 }
 
 .div-personagens {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
+    margin-top: 50px;
     padding: 10px;
     transition: transform .5s;
     will-change: scale;
 }
+
+a {
+    position: relative;
+}
+
+button.lixeira {
+    padding: 0;
+    border: 0;
+    position: absolute;
+}
+
+i.fa-sharp {
+    background: transparent;
+    padding: 0.25rem;
+    padding-bottom: 0.5rem;
+    padding-left: .75rem;
+}
+
 
 .div-personagens:hover, .div-personagens:hover .lixeira {
     color: black;

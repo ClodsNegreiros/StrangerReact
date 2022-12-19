@@ -35,6 +35,14 @@ nav li {
     margin-left: 32px;
 }
 
+.nav-link {
+    margin-right: 1.5rem;
+}
+
+.outlet {
+    padding: 5rem 0;
+}
+
 .mobile-menu {
     display: none;
     cursor: pointer;

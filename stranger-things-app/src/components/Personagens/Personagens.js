@@ -4,22 +4,21 @@ import personagens from "../../Json/personagens";
 function Personagens() {
 
   const createPerson = ({ id, link, imagem, nome, ator }) => {
+
     return `
-      <div id="div-personagens-${id}">
-          <div id="div-personagens1 ${id}">
-            <a className="position-relative" href="${link}">
-                <img id="img-personagens" src="${imagem}">
-            </a>
-              <button type='reset' className="lixeira p-0 border-0 position-absolute me-3" onclick = "Delete(${id})" >
-                  <i className="fa-sharp fa-solid fa-trash-can bg-transparent p-1 pb-2 ps-2"></i>
-              </button>
-              <aside>
-                h3 className="bg-red">${nome}</h3>
-                <h4 className="bg-red">${ator}</h4>
-              </aside>
-          
-          </div>
-      </div>`;
+    <div id="div-personagens-${id}">
+        <div class="div-personagens ${id}">
+        <a href="${link}">
+            <img class="img-personagens" src="${imagem}">
+        </a>
+            <button type='reset' class="lixeira" onclick = "Delete(${id})" >
+                <i class="fa-sharp fa-solid fa-trash-can bg-transparent p-1 pb-2 ps-2"></i>
+            </button>
+            <h3 class="bg-red">${nome}</h3>
+            <h4 class="bg-red">${ator}</h4>
+        
+        </div>
+    </div>`
   };
 
   const PersonContent = personagens
@@ -57,7 +56,6 @@ function Personagens() {
                 <option value="Eleven / Onze" />
                 <option value="Mike" />
                 <option value="Will" />
-                {}
                 <option value="Dustin" />
                 <option value="Lucas" />
                 <option value="Max" />

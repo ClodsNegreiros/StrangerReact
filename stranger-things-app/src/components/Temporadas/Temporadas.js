@@ -1,46 +1,30 @@
-import './Temporadas.css';
+import "./Temporadas.css";
+import temporadasSettings from "../../Json/model-temporadas";
+
+import Resumo from "./Resumo";
+import Temps from "./Temps";
 
 function Temporadas() {
 
-    const temporadas = [
-        {
-            temporada: '1'
-        },
-        {
-            temporada: '2'
-        },
-        {
-            temporada: '3'
-        },
-        {
-            temporada: '4'
-        }
-    ]
-    
-    function createTemporadas({ temporada }) {
-        return `<a class="text-decoration-none" href="html/temporadas.html?${temporada}">
-            <div id="temporada${temporada}" class="div-temporadas d-flex flex-column justify-content-center align-items-center">
-                <h1 class="h1-temporadas mb-0">${temporada}ª</h1>
-                <h2 class="h2-temporadas mb-0">Temporada</h2>
-            </div>
-        </a>`
-    }
-    
-    const temporadasContent = temporadas
-        .map((temporadas) => createTemporadas(temporadas))
-        .join('');
-    
-    
-    return(
-        <div className="main-sections temp">
-            <h1 id="h1-temporadas" className="temporadas">Temporadas</h1>
-            <section
-            dangerouslySetInnerHTML={{__html:temporadasContent}}
-            >
-                
-            </section>
+  const resumo = temporadasSettings.resumo1;
+ 
+
+  return (
+    <>
+      <main className="main-temporadas d-flex flex-column justify-content-center text-center">
+        <picture ></picture>
+        <div className="res-temp">
+          <h1 className="mb-5 text-center color-red">Resumo</h1>
+          <div id="resumo">
+            <Resumo resumo={resumo}/>
+          </div>
         </div>
-    )
+        <section className="section-temporadas">
+          <Temps numero_capitulo={3} titulo_capitulo={3}/>
+        </section>
+      </main>
+    </>
+  );
 }
 
-export default Temporadas
+export default Temporadas;

@@ -47,19 +47,11 @@ function NavBar() {
           >
             Personagens
           </NavLink>
-          <NavLink
-            className={({ isActive }) =>
-              isActive ? "nav-link active" : "nav-link"
-            }
-            to="temporadas"
-          >
-            Temporadas
-          </NavLink>
         </ul>
       </nav>
-      <>
+      <div className="outlet">
         <Outlet />
-      </>
+      </div>
     </div>
   );
 }

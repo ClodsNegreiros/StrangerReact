@@ -1,14 +1,15 @@
 #carrossel {
-    padding-top: 20px;
+    padding-top: 0px;
 }
 
-.slider {
+ .slider {
     margin: 0 auto;
     width: 630px;
     height: 380px;
     overflow: hidden;
     border: 5px solid red;
 }
+
 
 .slides {
     width: 630px;
@@ -35,7 +36,7 @@
 .manual-navigation {
     position: absolute;
     width: 630px;
-    margin-top: -40px;
+    margin-top: 333px;
     display: flex;
     justify-content: center;
     background-color: transparent;
@@ -83,10 +84,11 @@
     background-color: transparent;
     
 }
+
 div.navigation-auto {
     position: absolute;
     width: 630px;
-    margin-top: 340.1px;
+    margin-top: 333px;
     display: flex;
     justify-content: center;
     background-color: transparent;
@@ -119,7 +121,7 @@ div.navigation-auto {
 #radio4:checked~.navigation-auto .auto-btn4 {
     background-color: white;
 }
-
+/*
 section h1, #h1-noticias {
     color: red;
     font-weight: 600;
@@ -132,5 +134,5 @@ section h1, #h1-noticias {
 
 #h1-noticias {
     padding-bottom: 0;
-}
+} */
 
