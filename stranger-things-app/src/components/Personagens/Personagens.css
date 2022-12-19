@@ -1,3 +1,7 @@
+ .main-sections {
+    flex-direction: column;
+ }
+ 
  .submit{
     display: flex;
     align-items: center;
@@ -74,6 +78,7 @@
     border-radius: 6px;
     width: 85px;
     height: 40px;
+    cursor: pointer;
 } 
 
 .img-personagens {
@@ -86,6 +91,7 @@
 }
 
 .div-personagens {
+    margin: 50px 0.75rem 25px 0;
     margin-bottom: 25px;
     margin-top: 50px;
     padding: 10px;
@@ -145,4 +151,8 @@ div h4 {
 
 .div-personagens:hover .bg-red {
     background-color: red;
+}
+
+.strange-button {
+    height: 50px;
 }

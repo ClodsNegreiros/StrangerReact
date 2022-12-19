@@ -3,9 +3,6 @@ import './Sobre.css'
 function Sobre() {
     return(
         <main>
-            <div className="background">
-            Texto invisível
-            </div>
             <div className="sobre-infos">
                 <section className="main-sections mb-100">
                     <h1>Sobre</h1>
