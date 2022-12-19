@@ -49,12 +49,7 @@ function Noticias() {
               <div className="auto-btn4"></div>
             </div>
           </div>
-          <div className="manual-navigation">
-            <label htmlFor="radio1" className="manual-btn"></label>
-            <label htmlFor="radio2" className="manual-btn"></label>
-            <label htmlFor="radio3" className="manual-btn"></label>
-            <label htmlFor="radio4" className="manual-btn"></label>
-          </div>
+          
         </section>
       </div>
     </>

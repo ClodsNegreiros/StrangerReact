@@ -27,14 +27,6 @@ function NavBar() {
             className={({ isActive }) =>
               isActive ? "nav-link active" : "nav-link"
             }
-            to="sobre"
-          >
-            Sobre
-          </NavLink>
-          <NavLink
-            className={({ isActive }) =>
-              isActive ? "nav-link active" : "nav-link"
-            }
             to="noticias"
           >
             Notícias
